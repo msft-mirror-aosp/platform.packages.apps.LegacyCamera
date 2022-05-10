@@ -1,3 +1,8 @@
+package {
+    // http://go/android-license-faq
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
 cc_library_shared {
     name: "libjni_legacymosaic",
 
