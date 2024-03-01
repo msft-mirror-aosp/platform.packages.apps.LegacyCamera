@@ -16,15 +16,16 @@
 
 package com.android.camera.stress;
 
-import com.android.camera.Camera;
-import com.android.camera.VideoCamera;
-
 import android.app.Instrumentation;
 import android.content.Intent;
-import android.test.ActivityInstrumentationTestCase2;
-import android.test.suitebuilder.annotation.LargeTest;
 import android.os.Environment;
+import android.test.ActivityInstrumentationTestCase2;
 import android.util.Log;
+
+import androidx.test.filters.LargeTest;
+
+import com.android.camera.Camera;
+import com.android.camera.VideoCamera;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
