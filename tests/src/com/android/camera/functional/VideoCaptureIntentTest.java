@@ -16,31 +16,25 @@
 
 package com.android.camera.functional;
 
-import com.android.camera.VideoCamera;
-import com.android.camera.R;
-
 import android.app.Activity;
-import android.app.Instrumentation;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.database.Cursor;
 import android.media.MediaMetadataRetriever;
 import android.net.Uri;
 import android.os.Environment;
-import android.os.Process;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Video.VideoColumns;
 import android.test.ActivityInstrumentationTestCase2;
-import android.test.suitebuilder.annotation.LargeTest;
-import android.test.UiThreadTest;
 import android.util.Log;
 import android.view.KeyEvent;
-import android.view.View;
 
-import java.io.BufferedInputStream;
+import androidx.test.filters.LargeTest;
+
+import com.android.camera.R;
+import com.android.camera.VideoCamera;
+
 import java.io.File;
-import java.io.FileInputStream;
-import java.net.URI;
 
 public class VideoCaptureIntentTest extends ActivityInstrumentationTestCase2 <VideoCamera> {
     private static final String TAG = "VideoCaptureIntentTest";

@@ -16,15 +16,17 @@
 
 package com.android.camera.power;
 
+import android.app.Instrumentation;
+import android.content.Intent;
+import android.test.ActivityInstrumentationTestCase2;
+import android.util.Log;
+import android.view.KeyEvent;
+
+import androidx.test.filters.LargeTest;
+
 import com.android.camera.Camera;
 import com.android.camera.VideoCamera;
 
-import android.app.Instrumentation;
-import android.test.ActivityInstrumentationTestCase2;
-import android.test.suitebuilder.annotation.LargeTest;
-import android.util.Log;
-import android.view.KeyEvent;
-import android.content.Intent;
 /**
  * Junit / Instrumentation test case for camera power measurement
  *

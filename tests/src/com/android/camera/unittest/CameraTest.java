@@ -16,14 +16,11 @@
 
 package com.android.camera.unittest;
 
-import com.android.camera.Camera;
-import com.android.camera.FocusManager;
-import com.android.camera.Util;
-
 import android.graphics.Matrix;
-import android.graphics.Rect;
-import android.graphics.RectF;
-import android.test.suitebuilder.annotation.SmallTest;
+
+import androidx.test.filters.SmallTest;
+
+import com.android.camera.Util;
 
 import junit.framework.TestCase;
 
