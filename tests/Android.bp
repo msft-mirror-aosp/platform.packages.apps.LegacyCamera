@@ -11,7 +11,10 @@ android_test {
         "android.test.runner",
         "android.test.base",
     ],
-    static_libs: ["junit"],
+    static_libs: [
+        "junit",
+        "androidx.test.rules",
+    ],
 
     srcs: ["src/**/*.java"],
 
