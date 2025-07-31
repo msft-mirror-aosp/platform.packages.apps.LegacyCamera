@@ -25,9 +25,10 @@ cc_library_shared {
         "-Wno-gnu-static-float-init",
         "-Wno-non-literal-null-conversion",
         "-Wno-self-assign",
+        "-Wno-unused-but-set-variable",
+        "-Wno-unused-function",
         "-Wno-unused-parameter",
         "-Wno-unused-variable",
-        "-Wno-unused-function",
     ],
     cppflags: ["-std=gnu++98"],
 
