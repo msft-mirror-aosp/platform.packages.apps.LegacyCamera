@@ -45,11 +45,6 @@ public:
   static const int IMAGE_TYPE_NUM_CHANNELS = 3;
 
   /**
-   *  Definition of an empty image.
-   */
-  static const int IMAGE_TYPE_NOIMAGE = 0;
-
-  /**
    *  Convert image from BGR (interlaced) to YVU (non-interlaced)
    *
    *  Arguments:

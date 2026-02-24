@@ -30,7 +30,6 @@ cc_library_shared {
         "-Wno-unused-parameter",
         "-Wno-unused-variable",
     ],
-    cppflags: ["-std=gnu++98"],
 
     srcs: [
         "feature_mos_jni.cpp",

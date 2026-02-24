@@ -43,7 +43,7 @@ Align::Align()
 Align::~Align()
 {
   // Free gray-scale image
-  if (imageGray != ImageUtils::IMAGE_TYPE_NOIMAGE)
+  if (imageGray != nullptr)
     ImageUtils::freeImage(imageGray);
 }
 

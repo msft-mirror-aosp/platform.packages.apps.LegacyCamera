@@ -45,10 +45,10 @@ static double mTx;
 int tWidth[NR];
 int tHeight[NR];
 
-ImageType tImage[NR][MAX_FRAMES];// = {{ImageUtils::IMAGE_TYPE_NOIMAGE}}; // YVU24 format image
+ImageType tImage[NR][MAX_FRAMES]; // YVU24 format image
 Mosaic *mosaic[NR] = {NULL,NULL};
-ImageType resultYVU = ImageUtils::IMAGE_TYPE_NOIMAGE;
-ImageType resultBGR = ImageUtils::IMAGE_TYPE_NOIMAGE;
+ImageType resultYVU = nullptr;
+ImageType resultBGR = nullptr;
 float gTRS[11]; // 9 elements of the transformation, 1 for frame-number, 1 for alignment error code.
 // Variables to keep track of the mosaic computation progress for both LR & HR.
 float gProgress[NR];
